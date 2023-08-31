@@ -1,5 +1,11 @@
-from package_name.capitalize import capitalize
+from capitalize import capitalize
 
 
 if capitalize('hello') != 'Hello':
-    raise Exception('Ф-я работает неверно!')
+    raise Exception('Функция работает неверно!')
+
+if capitalize('') != '':
+    raise Exception('Функция работает неверно!')
+
+print('Все тесты пройдены!')
+
